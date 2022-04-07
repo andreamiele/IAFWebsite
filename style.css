@@ -1,9 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #e7c8a0;
 }
 
 li {
@@ -12,15 +12,16 @@ li {
 
 li a {
   display: block;
-  color: #806040;
+  color: #9b5611;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: #94704c;
 }
 
 html,
@@ -28,8 +29,16 @@ body {
   margin: 0px;
   height: 100%;
   background-color: #fefae0;
+  font-family: "Open Sans";
 }
 
 .div1 {
-  background-color: #fcf4d7;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 5px 25px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 20px;
+  margin-bottom: 100px;
 }
